@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 
 import Header from "../../components/header";
 import Hero from "../../components/hero";
-import Mint from "../../components/mint";
+// import Mint from "../../components/mint";
 import WhyJoin from "../../components/why-join";
-import RoadMap from "../../components/roadmap";
-import Team from "../../components/team";
-import Partners from "../../components/partners";
+// import RoadMap from "../../components/roadmap";
+// import Team from "../../components/team";
+// import Partners from "../../components/partners";
 import Footer from "../../components/footer";
 
 import "../../assets/styles/pages.scss";

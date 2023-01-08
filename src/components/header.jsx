@@ -3,7 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./../assets/styles/layout.scss";
 import { logo } from "./../assets/images";
 
-import { navigateToId, handleSHeaderOnScroll } from "./../utils/utility-services";
+import {
+  navigateToId,
+  handleSHeaderOnScroll
+} from "./../utils/utility-services";
 import { whitePaper } from "../assets/files";
 
 function Header() {
@@ -16,8 +19,9 @@ function Header() {
 
   const closeAndNavigate = (id, file) => {
     setOpenMobileMenu(false);
+    return;
     if (!file) {
-      // navigateToId(id);
+      navigateToId(id);
       return;
     }
     window.open(file);

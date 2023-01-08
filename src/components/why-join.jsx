@@ -1,7 +1,6 @@
 import React from "react";
 
-import { whyJoinImage, perkImage, barnerWhyJoin, sidePatternAngles } from '../assets/images';
-import { perks } from '../utils/temp-data';
+import { whyJoinImage } from '../assets/images';
 import Marquee from "react-fast-marquee";
 
 import "../assets/styles/pages.scss";

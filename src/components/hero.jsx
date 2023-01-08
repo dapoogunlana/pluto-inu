@@ -25,12 +25,12 @@ function Hero() {
       </div>
       <div className="holder">
         <img src={heroImg} alt="" data-aos="flip-left" />
-        <div className="vid-outer-circle" data-aos="zoom-in" data-aos-delay="1000"></div>
+        {/* <div className="vid-outer-circle" data-aos="zoom-in" data-aos-delay="1000"></div>
         <div className="vid-inner-circle" data-aos="zoom-in" data-aos-delay="1000" onClick={openVid}>
           <div>
             <i className="fa-solid fa-play"></i>
           </div>
-        </div>
+        </div> */}
       </div>
       {toggleVideoModal && <VideoModal link={'Tu4Yun97cJY'} onCloseModal={closeVid} />}
     </div>
