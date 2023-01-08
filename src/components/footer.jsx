@@ -10,7 +10,7 @@ function Footer() {
         <div className="w96 max800 text-center mt-5">
           <p>
             For marketing and business proposals, send a mail to &nbsp; 
-            <a href="mailto:business@drivin.club" className="c-secondary-blue-im">business@pluto_inu.club</a>
+            <a href="mailto:business@drivin.club" className="c-secondary-blue-im">hello@plutoinu.ai</a>
             <br />
             Join Newsletter so you dont miss important events and updates
           </p>
