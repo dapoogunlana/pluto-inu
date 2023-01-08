@@ -247,6 +247,7 @@
         &:focus{
             outline: none;
         }
+        min-width: 70px;
     }
     button{
         background-color: $primary-blue;

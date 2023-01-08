@@ -17,13 +17,14 @@ function Footer() {
           <div className="subscribe-grid inc-grid w96 max600 mb-4">
               <input type="text" placeholder="Enter your email" />
               <span></span>
-              <button className="">Subscribe</button>
+              <button className="mfade">Subscribe</button>
+              <button className="wfade">Go</button>
           </div>
           <div className="w80 max250">
           <div className="spread-info mt-3 media-icons">
                 <a href="https://t.me/plutoinuai" target="_blank" rel="noreferrer"><i className="fa-sharp fa-solid fa-paper-plane increased-x"></i></a>
                 <a href="https://twitter.com/pluto_inu" target="_blank" rel="noreferrer"><i className="fab fa-twitter increased-x"></i></a>
-                <a href="https://medium.com/@drivin.club" target="_blank" rel="noreferrer"><i className="fa-brands fa-medium increased-x"></i></a>
+                <a href="https://t.co/UUvr5CWnex" target="_blank" rel="noreferrer"><i className="fa-brands fa-medium increased-x"></i></a>
             </div>
           </div>
         </div>
